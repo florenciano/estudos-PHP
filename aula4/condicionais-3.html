@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Condições em PHP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+		.required {
+			color: red;
+			font-size: 1.5em;
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<form method="GET" action="condicionais-3.php">
+		<p>
+			<label for="num">Número: </label>
+			<input type="number" id="num" name="ds" min="2" max="8" required><span class="required">*</span>
+		</p>
+		<p><input type="submit" value="Analisar"></p>
+	</form>
+</body>
+</html>

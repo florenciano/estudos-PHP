@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Integrando formulários</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+</head>
+<body>
+	<div>
+		<form method="GET" action="integrando-formulario-3.php">
+			<p>
+				<label for="texto">Texto:</label>
+				<input type="text" name="txt" id="texto">
+			</p>
+			<p>
+				<label for="height">Tamanho:</label>
+				<select name="lenght" id="height">
+					<option value="8pt">8</option>
+					<option value="10pt">10</option>
+					<option value="14pt" selected>14</option>
+					<option value="20pt">20</option>
+					<option value="40pt">40</option>
+				</select>
+			</p>
+			<p>
+				<label for="cor">Cor:</label>
+				<input type="color" name="color" id="cor">
+			</p>
+			<p>
+				<input type="submit" value="Gerar">
+			</p>
+		</form>	
+	</div>
+</body>
+</html>

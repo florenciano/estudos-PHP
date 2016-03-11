@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Condições em PHP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	<form method="GET" action="condicionais-2.php">
+		<p>
+			<label for="num">Número: </label>
+			<input type="number" id="num" name="numero">
+		</p>
+		<fieldset>
+			<legend>Operação matemática</legend>
+			<p>
+				<input type="radio" name="op" value="op-dobro" id="dobro" checked>
+				<label for="dobro">Dobro</label>
+				&nbsp;&nbsp;
+				<input type="radio" name="op" value="op-cubo" id="cubo">
+				<label for="cubo">Cubo</label>
+				&nbsp;&nbsp;
+				<input type="radio" name="op" value="op-raiz" id="raiz">
+				<label for="raiz">Raiz quadrada</label>
+			</p>
+		</fieldset>
+		<p><input type="submit" value="Calcular"></p>
+	</form>
+</body>
+</html>
